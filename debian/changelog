@@ -1,3 +1,12 @@
+jinja2 (3.0.3-1ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Cross-Site scripting
+    - debian/patches/CVE-2024-22195.patch: disallow keys with spaces
+      in src/jinja2/filters.py, tests/test_filters.py.
+    - CVE-2024-22195
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Fri, 19 Jan 2024 07:56:33 -0300
+
 jinja2 (3.0.3-1) unstable; urgency=medium
 
   * New upstream release

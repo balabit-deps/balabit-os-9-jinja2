@@ -1,7 +1,8 @@
 Source: jinja2
 Section: python
 Priority: optional
-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
 Uploaders:
  Debian Python Team <team+python@tracker.debian.org>,
 Build-Depends:
