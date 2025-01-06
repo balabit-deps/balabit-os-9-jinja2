@@ -1,3 +1,15 @@
+jinja2 (3.0.3-1ubuntu0.3) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: arbitrary code execution issue in jinja compiler
+    - debian/patches/CVE-2024-56201.patch: f-string syntax handling in code
+      generation improved in src/jinja2/compiler.py.
+    - debian/patches/CVE-2024-56326.patch: oversight on calls to str.format
+      adjusted in src/jinja2/sandbox.py.
+    - CVE-2024-56201
+    - CVE-2024-56326
+
+ -- Evan Caville <evan.caville@canonical.com>  Mon, 06 Jan 2025 15:27:20 +1000
+
 jinja2 (3.0.3-1ubuntu0.2) jammy-security; urgency=medium
 
   * SECURITY UPDATE: Cross-Site scripting in xmlattr filter
